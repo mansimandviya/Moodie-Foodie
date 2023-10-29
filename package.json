@@ -1,0 +1,37 @@
+{
+  "name": "moodiefoodie",
+  "version": "1.0.0",
+  "description": "This is food ordering application named MoodieFoodie.",
+ 
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansimandviya/Moodie-Foodie.git"
+  },
+  "keywords": [
+    "React",
+    "JavaScript",
+    "HTML/CSS"
+  ],
+  "author": "Mansi Mandviya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mansimandviya/Moodie-Foodie/issues"
+  },
+  "homepage": "https://github.com/mansimandviya/Moodie-Foodie#readme",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}

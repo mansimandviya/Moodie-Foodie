@@ -1,0 +1,57 @@
+
+.header{
+display: flex;
+justify-content: space-between;
+border: 1px solid black;
+}
+.logo{
+width: 135px;
+padding: 10px;
+}
+.nav-items > ul{
+    display: flex;
+    font-size: 25px;
+    list-style-type: none;
+}
+.nav-items > ul> li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-card{
+    width: 280px;
+    background-color: beige;
+    margin: 10px;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.search{
+    padding: 20px;;
+}
+
+.res-img{
+    width: 240px;
+    text-align: center;
+    padding: 20px;
+}
+.res-name{
+    text-align: center;
+}
+.res-cuisine{
+    text-align: center;
+}
+.res-star-rating{
+    text-align: center;
+}
+.rest-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.res-cost-for-2, .res-delivery-time{
+    color: grey;
+    text-align: center;
+    font-style:oblique
+}
